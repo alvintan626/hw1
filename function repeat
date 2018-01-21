@@ -1,0 +1,8 @@
+// The function, "repeat", calls the direction and # of squares it will move in that direction
+function repeat(direction, max) {
+  var count = 0;
+  while(count < max) {
+    direction
+    count = count + 1
+    }
+}
