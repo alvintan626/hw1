@@ -1,0 +1,9 @@
+// puzzle 3
+
+repeat(down,2)
+var mycolor = getColor
+repeat(down,2)
+repeat(right,2)
+setColor(mycolor)
+repeat(right,2)
+up
