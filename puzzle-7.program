@@ -1,0 +1,42 @@
+//puzzle 7
+
+function repeat(direction,total) {
+  var count = 0;
+  while (count < total) {
+    direction();
+    count = count + 1;
+  }
+}
+
+// pattern:
+// down up down up down
+
+while (getColor() != "red") {
+  down();
+}
+
+repeat(right,2)
+
+while (getColor() != "red") {
+  up();
+}
+
+repeat(right,2)
+
+while (getColor() != "red") {
+  down();
+}
+
+repeat(right,2)
+
+while (getColor() != "red") {
+  up();
+}
+
+repeat(right,2)
+
+while (getColor() != "red") {
+  down();
+}
+
+right()
