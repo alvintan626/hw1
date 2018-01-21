@@ -1,0 +1,22 @@
+// puzzle 4
+
+function repeat(direction,total) {
+  var count = 0;
+  while (count < total) {
+    direction();
+    count = count + 1;
+  }
+}
+
+repeat(down,4)
+right()
+var mycolor1 = getColor()    // obtains color that rudy is on
+down()
+setColor(mycolor1)         // matches the color obtained from mycolor memory and unlocks gate next to rudy
+repeat(right,2)
+up()
+right()
+var mycolor2 = getColor()
+down()
+setColor(mycolor2)  
+repeat(right,2)
