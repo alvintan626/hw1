@@ -7,3 +7,4 @@ repeat(right,2)
 setColor(mycolor)         // matches the color obtained from mycolor memory and unlocks gate next to rudy
 repeat(right,2)
 up
+remainingDots             // all dots found. completed.
