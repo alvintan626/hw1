@@ -14,10 +14,15 @@
 //   setColor(color);    changes the color of rudy's square and opens gate if match
 //   remainingDots();    returns the number of green dots remaining in the puzzle
     
+function repeat(direction,total) {
+  var count = 0;
+  while (count < total) {
+    direction();
+    count = count + 1;
+  }
+}
+
 repeat(down,7)
 repeat(right,5)
 repeat(up,2)
-remainingDots       // 1 more dot left, good job!
-
 repeat(right,2)
-remainingDots       // no more dots. complete!
