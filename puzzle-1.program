@@ -1,1 +1,20 @@
 //Code for Rudy
+
+// down();        rudy, the red dot, moves down one square
+// up();          ... moves up one square
+// left();        ... moves left one square
+// right();       ... moves right one square
+
+// The function, "repeat", calls the direction and # of squares it will move in that direction
+function repeat(direction, max) {
+  var count = 0
+  while(count < max) {
+    direction
+    count = count + 1
+    }
+}
+    
+repeat(down,7)
+repeat(right,5)
+repeat(up,2)
+repeat(left,2)
