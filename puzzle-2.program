@@ -3,8 +3,9 @@
 repeat(down,6)
 repeat(right,3)
 repeat(up,2)
+down  
+remainingDots   // notifies Rudy how many dots are left...1 more
 down
-var firstgreen = getColor
 down
-down
-var secgreen = getColor
+remainingDots   // completed
+
