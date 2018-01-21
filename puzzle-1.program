@@ -17,4 +17,7 @@
 repeat(down,7)
 repeat(right,5)
 repeat(up,2)
+remainingDots       // 1 more dot left, good job!
+
 repeat(left,2)
+remainingDots       // no more dots. complete!
