@@ -1,12 +1,15 @@
 //2nd puzzle
 
+function repeat(direction,total) {
+  var count = 0;
+  while (count < total) {
+    direction();
+    count = count + 1;
+  }
+}
+
 repeat(down,6)
 repeat(right,3)
 repeat(up,2)
-down  
-remainingDots   // notifies Rudy how many dots are left...1 more
-
-down
-down
-remainingDots   // completed
-
+repeat(right,2)
+repeat(down,3)
