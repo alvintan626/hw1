@@ -1,18 +1,18 @@
-//Code for Rudy
+// Code for Rudy the red dot
+//  Alvin Tan
+//  January 20, 2018
+//  Homework 1
 
-// down();        rudy, the red dot, moves down one square
-// up();          ... moves up one square
-// left();        ... moves left one square
-// right();       ... moves right one square
+// Rudy's movements controlled by the following commands
+//  down();        rudy, the red dot, moves down one square
+//  up();          ... moves up one square
+//  left();        ... moves left one square
+//  right();       ... moves right one square
 
-// The function, "repeat", calls the direction and # of squares it will move in that direction
-function repeat(direction, max) {
-  var count = 0
-  while(count < max) {
-    direction
-    count = count + 1
-    }
-}
+// Commands that Rudy is able to interact with the environment
+//   getColor();         obtains the color of Rudy's current square
+//   setColor(color);    changes the color of rudy's square and opens gate if match
+//   remainingDots();    returns the number of green dots remaining in the puzzle
     
 repeat(down,7)
 repeat(right,5)
