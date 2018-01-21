@@ -1,1 +1,10 @@
 //2nd puzzle
+
+repeat(down,6)
+repeat(right,3)
+repeat(up,2)
+down
+var firstgreen = getColor
+down
+down
+var secgreen = getColor
