@@ -1,0 +1,39 @@
+// puzzle 6
+
+function repeat(direction,total) {
+  var count = 0;
+  while (count < total) {
+    direction();
+    count = count + 1;
+  }
+}
+
+// pattern:
+// if middle is blue... head down
+// red middle... head up
+
+// final stage
+// red... green dot is on left
+// blue... green dot is on right
+
+right()
+
+if (getColor() == "blue") {
+  repeat(down,3);
+  if (getColor() == "blue") {
+    right()
+    down()
+    } else {
+    left()
+    down()
+    }
+} else {
+  repeat(up,3);
+  if (getColor() == "blue") {
+    right()
+    up()
+    } else {
+    left()
+    up()
+    }
+}
